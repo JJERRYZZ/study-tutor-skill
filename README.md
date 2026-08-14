@@ -1,4 +1,4 @@
-# NTU Study Tutor Skill
+# Study Tutor Skill
 
 一个面向研究生学习场景的双语 Study Tutor Skill。它主要为 NTU MSc Data Science 的学习流程设计，也可以用于其他课程。
 
@@ -52,7 +52,7 @@ Skill 会自动判断合适的模式，不需要记忆固定命令。
 ## 仓库结构
 
 ```text
-ntu-study-tutor-skill/
+study-tutor-skill/
 ├── README.md
 └── SKILL.md
 ```
