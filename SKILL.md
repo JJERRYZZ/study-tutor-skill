@@ -197,42 +197,82 @@ By default, provide questions and answers together unless the learner asks to at
 
 ## Cheatsheet mode
 
-The hard constraint is one physical sheet of paper, front and back. Treat this as exam information compression, not a normal summary.
+Treat a cheatsheet as an exam-use tool, not a normal summary. The hard output constraint is one physical A4 sheet, front and back, unless the learner explicitly gives a different limit.
 
-Prioritize:
+### 1. Establish scope before compression
 
-### Tier 1 — must include
+- Inventory every supplied lecture, reading, tutorial, assignment, practice set, past quiz, and assessment note. Confirm which files are readable and resolve duplicate versions before writing.
+- Build a private coverage checklist for all real course content, including image-only slides, formulas, diagrams, tables, examples, annotations, and supplementary readings.
+- Lecture materials and confirmed assessment guidance define the content scope. Tutorials and past quizzes are evidence for priority and later verification; they are never the ceiling of coverage.
+- If a required source is missing or unreadable, state the gap instead of claiming the cheatsheet is complete.
 
-- Instructor-emphasized and high-frequency assessment content.
-- Core formulas and essential definitions.
-- Easy-to-forget or easy-to-confuse items.
-- Content repeatedly used in tutorials or past quizzes.
+### 2. Extract exam-usable information
 
-### Tier 2 — include if space permits
+Include the smallest form that remains operational in an assessment:
 
-- Algorithm steps.
-- Important comparisons.
-- Fast solution strategies.
-- Tiny examples.
+- Exact definitions and course terminology.
+- Core concepts, conditions, assumptions, and decision rules.
+- Complete formulas, symbol meanings, when to use them, and essential calculation steps.
+- Algorithm or workflow steps, important comparisons, common mistakes, and fast solution strategies.
+- Instructor-emphasized material and content repeatedly used across authoritative sources.
+- Tiny examples, answer structures, or reusable templates when they materially help solve a question.
+- Simplified, reproducible diagrams when the learner may need to draw or reconstruct one.
 
-### Tier 3 — remove first
+Use the exact notation and wording from the course materials. Keep exam-ready English terms, with only short Chinese glosses where they improve retrieval speed.
 
-- Long explanations.
-- Background stories.
-- Repeated content.
-- Easy-to-remember details.
-- Low-evidence assessment speculation.
+### 3. Formula and diagram requirements
 
-Prefer formulas, keywords, abbreviations, arrows, `vs.`, and compact tables. If space is insufficient, remove lower-value content instead of making everything unreadably small.
+For every important formula:
 
-Before finalizing, perform a compression check:
+- Show the complete formula clearly rather than only naming it.
+- Define every symbol at least once.
+- State the use condition or question type that triggers it.
+- Include a minimal substitution pattern or numerical example when the operation is not obvious.
+- Do not compress it into opaque personal shorthand. If re-typesetting would make the formula ambiguous or unreadable, reuse a clear, tightly cropped formula image from the course material.
 
-1. Remove duplication.
-2. Confirm every item earns its space.
-3. Ensure symbols are defined at least once.
-4. Keep critical warnings and common errors visible.
-5. State any layout assumption used to judge the front/back limit.
+For a likely drawing question, include a compact version that can actually be copied in an assessment. A text description alone is insufficient when the task requires a diagram.
 
+### 4. Content priority
+
+#### Tier 1 — must include
+
+- Instructor-emphasized and confirmed assessment content.
+- Core formulas, symbol definitions, essential concepts, and exact definitions.
+- Easy-to-forget, easy-to-confuse, or high-cost mistakes.
+- General methods needed for tutorials, assignments, or past quizzes.
+
+#### Tier 2 — include if space permits
+
+- Algorithm steps and important comparisons.
+- Fast solution strategies and reusable answer templates.
+- Tiny examples and reproducible diagrams.
+
+#### Tier 3 — remove first
+
+- Long explanations and background stories.
+- Repeated content and easy-to-recall details.
+- Decorative elements and low-evidence assessment speculation.
+
+Remove lower-value content before shrinking everything to an unreadable size.
+
+### 5. Page and readability rules
+
+- Produce a print-ready A4 front and back. Do not add a decorative cover, large title area, background color, or styling that consumes useful space.
+- Use compact headings, columns, tables, arrows, abbreviations, and `vs.` comparisons only when their meanings remain immediately clear.
+- Use available page space before reducing font size. Do not leave meaningful whitespace while important content is tiny, and do not rely on 6–7 pt text when a clearer layout is possible.
+- Keep formulas, symbols, warnings, and diagrams visually distinguishable and quick to find.
+
+### 6. Mandatory usability audit
+
+Do not call the cheatsheet finished after the first layout pass. Run all of these checks:
+
+1. **Coverage audit:** Compare the sheet against the private source checklist. Confirm that every important topic from every in-scope source is represented or was deliberately excluded for a stated reason.
+2. **Question-by-question audit:** Test every supplied tutorial, practice question, and past quiz/example. For each question, verify that the sheet provides the concept, formula, decision rule, diagram, or answer structure needed to solve it.
+3. **Generality audit:** Add the reusable mechanism behind any detected gap, not merely the answer to one example question. The sheet should support comparable unseen questions.
+4. **Accuracy audit:** Recheck terminology, formulas, signs, conditions, symbol definitions, units, answer keys, and diagrams against the course sources.
+5. **Print audit:** Confirm the final artifact is exactly two A4 sides, has no clipped or overlapping content, and remains readable at normal print size.
+
+If any audit fails, revise the cheatsheet and rerun the affected checks. Only describe it as ready for use after the full audit passes. Treat later real-use feedback as evidence for another focused revision.
 ## Interaction rules
 
 - Begin with the useful answer, not a long description of the mode.
