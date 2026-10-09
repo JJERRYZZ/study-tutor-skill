@@ -1,10 +1,10 @@
-# NTU Study Tutor v2
+# Study Tutor v2
 
-面向 NTU MSc Data Science 及其他技术课程的研究生学习辅导 Skill。中文讲解为主，保留原始英文术语、公式与课程符号。
+面向技术课程的研究生学习辅导 Skill。中文讲解为主，保留原始英文术语、公式与课程符号。
 
-A graduate study tutor for NTU MSc Data Science and other technical courses. Explanations are primarily in Chinese, preserving original English terminology, formulas, and course notation.
+A study tutor for graduate technical courses. Explanations are primarily in Chinese, preserving original English terminology, formulas, and course notation.
 
-**Skill 名称 / Skill name:** `ntu-study-tutor`
+**Skill 名称 / Skill name:** `study-tutor`
 
 课件理解 → 完整讲解 → 课后复习 → 知识串联 → Quiz/Exam 复习 → 练习 → 双面 Cheatsheet。
 
@@ -42,7 +42,7 @@ Lecture understanding → complete explanation → after-class review → knowle
 | [workflows/](workflows/) | 8 个任务与质量检查模块 / Eight task and validation modules |
 | [templates/course-tracker.md](templates/course-tracker.md) | 课程进度与薄弱点模板 / Course progress and weak-point template |
 | [V1_REFERENCE.md](V1_REFERENCE.md) | v2 安装包附带的旧版参考，不参与运行 / Legacy reference supplied in the v2 package, excluded from runtime |
-| [github-v1-backup-20261009.zip](github-v1-backup-20261009.zip) | 更新前仓库的原始 SKILL.md 和 README.md / Original repository SKILL.md and README.md before the update |
+| [github-v1-backup-20261009.zip](github-v1-backup-20261009.zip) | 更新前仓库的SKILL.md 和 README.md（公开表述已泛化） / Earlier SKILL.md and README.md with generalized public wording |
 
 ## 安装 / Installation
 
@@ -78,17 +78,23 @@ Permission to bring a cheatsheet into an assessment depends on the instructor or
 
 - 安装包全部 12 个文件的 UTF-8、名称、描述、文件结构与模块引用检查通过。  
   All 12 package files passed UTF-8, metadata, structure, and module-reference checks.
-- 基础调用测试将“完整讲解 SD6124 Week 8 课件”识别为完整讲解任务，并加载 `lecture.md` 和 `validation.md`。  
-  A basic invocation recognized the SD6124 Week 8 full-lecture request and loaded `lecture.md` and `validation.md`.
-- GitHub 同步后，文件哈希与准备上传的版本一致；教学逻辑保持安装包原样。  
-  After GitHub synchronization, file hashes matched the prepared files; teaching logic remained identical to the package.
+- 基础调用测试将“完整讲解 Week 8 技术课程 课件”识别为完整讲解任务，并加载 `lecture.md` 和 `validation.md`。  
+  A basic invocation recognized the Week 8 technical-course full-lecture request and loaded `lecture.md` and `validation.md`.
+- GitHub 同步后，文件哈希与准备上传的版本一致；教学流程保持原样；公开名称和课程背景已泛化。  
+  After GitHub synchronization, file hashes matched the prepared files; teaching workflows remain unchanged; public naming and course context have been generalized.
 
-**测试边界 / Test limitations:** 基础测试未附实际课件，因此不能据此声称完整课件讲解质量已通过回归测试。真实 NTU 课件及不同模型上的完整表现仍需实际验证。
+**测试边界 / Test limitations:** 基础测试未附实际课件，因此不能据此声称完整课件讲解质量已通过回归测试。真实 课程课件及不同模型上的完整表现仍需实际验证。
 
-No real lecture deck was supplied for the basic test, so it does not establish full lecture-teaching quality. Regression testing with real NTU materials and different models remains pending.
+No real lecture deck was supplied for the basic test, so it does not establish full lecture-teaching quality. Regression testing with real course materials and different models remains pending.
 
 ## 维护与恢复 / Maintenance and recovery
 
 共同规则在 `SKILL.md`，各模式在 `workflows/`；修改后应检查引用并使用真实课程资料验证。Git 提交历史和旧版备份可用于恢复。
 
 Shared rules live in `SKILL.md`; mode-specific rules live in `workflows/`. After changes, check references and validate with real course materials. Git history and the legacy backup support recovery.
+
+## 通用版本 / General version
+
+本仓库采用通用名称 Study Tutor，不绑定特定学校或专业。调整仅涉及名称与课程背景，保留 v2 的教学流程。归档文件同样使用通用表述。
+
+This repository uses the general name Study Tutor and is not tied to a specific university or major. Only naming and course context have been generalized; v2 teaching workflows are preserved. Archived files also use general wording.
