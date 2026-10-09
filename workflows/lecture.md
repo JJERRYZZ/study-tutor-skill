@@ -9,3 +9,4 @@
 8. Run `validation.md` checks. No unverified claims about exact slide counts or coverage.
 
 **Prohibited shortcuts:** summarize a 78-page deck as five themes when full teaching was requested; skip a figure-only page; describe unread material as completed; make up page ranges; produce only a quick review instead of full explanation.
+

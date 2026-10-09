@@ -17,3 +17,4 @@
 - Is Chinese clear and English terminology consistent with slides?
 - Does the response match the requested mode and user skill level?
 If any check fails, fix it or clearly disclose the limitation. Never claim a test passed without running it.
+

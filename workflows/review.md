@@ -6,3 +6,4 @@ Target 3–5 minutes of reading. Do not reuse full-lecture length.
 - Easy to Confuse: precise contrasts and traps.
 - Quick Check: normally 2–3 high-yield questions, with short answers; fewer if content is simple.
 Clearly separate instructor emphasis from model-derived importance. Link to earlier weeks only when those materials are available.
+

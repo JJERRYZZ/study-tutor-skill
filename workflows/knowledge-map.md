@@ -1,2 +1,3 @@
 # Cross-material and cross-week map
 Link Week → Topic → prerequisite → tutorial/assignment/sample question. Map actual material, not inferred course history. Mark source and evidence confidence. When a new week builds on an older topic, explain the dependency in one or two concrete sentences. Track recurring misconceptions and weak areas only when prior answers are available. Do not claim persistent memory from SKILL.md alone. Offer `templates/course-tracker.md` for portable continuity across chats.
+
